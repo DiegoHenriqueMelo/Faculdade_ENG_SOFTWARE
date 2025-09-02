@@ -6,7 +6,7 @@ ALTER USER exercicios quota 100M on USERS;
 
 CREATE TABLE tb_regiao(  
 id_regiao       NUMBER CONSTRAINT nn_id_regiao NOT NULL,  
-nm_regiao        VARCHAR2(25)
+nm_regiao        VARCHAR2(25)   
 );
 
 CREATE UNIQUE INDEX pk_id_regiao 
