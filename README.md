@@ -24,11 +24,11 @@
 <tr>
 <td width="50%">
 
-### 🗄️ **Banco de Dados I**
+### 🗄️ **Banco de Dados II**
 ```
-📝 Anotações: SQL, PL/SQL, tipos de dados
-💻 Exercícios: Modelagem e consultas
-📊 Slides: Material de apoio
+📝 Anotações: SQL, PL/SQL, UPDATE, DELETE
+💻 Exercícios: Consultas avançadas e modelagem
+📊 Slides: Material das aulas práticas
 ```
 
 ### 🚀 **Empreendedorismo II**
@@ -51,8 +51,8 @@
 ### ⚡ **Estrutura de Dados II**
 ```
 🔍 Busca: Sequencial e binária
-🔄 Ordenação: Bubble Sort, Selection Sort
-💾 Implementações: JavaScript (.mjs)
+🔄 Ordenação: Bubble Sort, Selection Sort, Merge Sort
+💾 Implementações: JavaScript + Recursividade
 ```
 
 ### 💻 **Interação Humano Computador II**
@@ -71,9 +71,9 @@
 
 ### 🔧 **UCE - Paradigmas II**
 ```
-🌐 Full-Stack: Node.js + React
+🌐 Projeto PCDentro: Sistema completo
 🗃️ Backend: Express + Prisma + TypeScript
-🎨 Frontend: React + Tailwind CSS
+🎨 Frontend: React + Hooks + Props + Tailwind
 ```
 
 </td>
@@ -131,18 +131,14 @@ npm run dev
 <summary><b>🔧 Sistema PCD (Paradigmas II)</b></summary>
 
 ```bash
-# 🗃️ Backend
-cd "UCE - Paradigmas da Programação II/Exercicios/app/backend"
-npm install
-npm run dev
+# 🗃️ Projeto PCDentro
+cd "UCE - Paradigmas da Programação II/Exercicios/PCDentro - Projeto"
 
-# 🎨 Frontend (novo terminal)
-cd "UCE - Paradigmas da Programação II/Exercicios/app/frontend"
-npm install
-npm run dev
+# Ou outros projetos de teste
+cd "UCE - Paradigmas da Programação II/Exercicios/App test"
+cd "UCE - Paradigmas da Programação II/Exercicios/Props e Hooks"
 
-# 🌐 Backend: http://localhost:3000
-# 🌐 Frontend: http://localhost:5173
+# Instale as dependências e execute conforme cada projeto
 ```
 
 </details>
@@ -153,27 +149,44 @@ npm run dev
 
 ```
 📁 FACULDADE/
-├── 🗄️ Banco de Dados I/
-│   ├── 📝 Anotações/          # SQL, PL/SQL, Data Types
-│   ├── 💻 Exercicios/         # Práticas e modelagem
+├── 🗄️ Banco de Dados II/
+│   ├── 📝 Anotações/          # SQL, PL/SQL, UPDATE, DELETE
+│   ├── 💻 Exercicios/         # Práticas SQL (.sql)
 │   └── 📊 Slides/             # Material das aulas
 ├── 🚀 Empreendedorismo II/
+│   ├── 📝 Anotações/          # Técnicas empreendedoras
 │   ├── 🎨 Exercicios/Postly/  # Projeto React completo
+│   │   └── Personas.docx      # Análise de personas
 │   └── 📈 Slides/             # Canvas, metodologias
 ├── 🔗 Estrutura de Dados I/
-│   └── 📚 Slides/             # Pilhas, filas, listas
+│   ├── 📝 Anotações/          # Conceitos fundamentais
+│   ├── 💻 Exercicios/         # Implementações práticas
+│   └── 📚 Slides/             # Pilhas, filas, listas, complexidade
 ├── ⚡ Estrutura de Dados II/
-│   ├── 🔍 Exercicios/         # Algoritmos em JavaScript
+│   ├── 📝 Anotações/          # Bubble Sort, Busca Binária
+│   ├── 🔍 Exercicios/         # Algoritmos implementados
+│   │   ├── bubbleSort/        # Ordenação por bolha
+│   │   ├── buscaBinaria/      # Busca binária
+│   │   ├── buscaSequencial/   # Busca sequencial
+│   │   ├── mergeSort/         # Ordenação por intercalação
+│   │   ├── selectionSort/     # Ordenação por seleção
+│   │   └── fatorialRecursividade/ # Recursividade
 │   └── 📊 Slides/             # Busca e ordenação
 ├── 💻 Interação Humano Computador II/
-│   ├── 📝 Anotações/          # UX/UI, navegação
-│   └── 📋 Exercicios/         # Regras de usabilidade
+│   ├── 📝 Anotações/          # Modos de uso e navegação
+│   ├── 📋 Exercicios/         # 8 regras de Ben Shneiderman
+│   └── 📊 Slides/             # Material de apoio
 ├── 📊 UCE - Gestão de Projetos/
-│   └── 📈 Anotações/          # SWOT, 5W2H, PDCA
+│   ├── 📈 Anotações/          # SWOT, 5W2H, 5S, PDCA
+│   ├── 💻 Exercicios/         # Práticas de gestão
+│   └── 📊 Slides/             # Material das aulas
 └── 🔧 UCE - Paradigmas da Programação II/
-    └── 🌐 Exercicios/app/
-        ├── 🗃️ backend/        # Node.js + Express + Prisma
-        └── 🎨 frontend/       # React + TypeScript + Tailwind
+    ├── 📝 Anotações/          # React, Hooks, Props, Prisma
+    ├── 🌐 Exercicios/         # Projetos práticos
+    │   ├── App test/          # Testes de aplicação
+    │   ├── PCDentro - Projeto/ # Sistema principal
+    │   └── Props e Hooks/     # Estudos React
+    └── 📊 Slides/             # Guias e apresentações
 ```
 
 <br>
@@ -184,7 +197,7 @@ npm run dev
 
 | Disciplina | Foco Principal | Tecnologias |
 |------------|----------------|-------------|
-| 🗄️ **Banco de Dados** | Modelagem e SQL | PostgreSQL, PL/SQL |
+| 🗄️ **Banco de Dados II** | SQL Avançado e PL/SQL | PostgreSQL, UPDATE, DELETE |
 | 🚀 **Empreendedorismo** | Metodologias ágeis | Canvas, Personas |
 | 🔗 **Estrutura de Dados** | Algoritmos fundamentais | JavaScript, Análise |
 | 💻 **IHC** | UX/UI Design | Usabilidade, Navegação |
