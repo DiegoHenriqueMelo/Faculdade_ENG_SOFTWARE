@@ -82,6 +82,65 @@
 
 <br>
 
+<div align="center">
+  <h2>🎓 3º Ano</h2>
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 🖥️ **Arquitetura e Org. Computadores**
+```
+⚙️ Hardware: Organização e funcionamento
+🔢 Lógica: Circuitos e processamento
+💾 Memória: Hierarquia e armazenamento
+```
+
+### 📱 **Dev. Dispositivos Móveis I**
+```
+📲 Mobile: Desenvolvimento de apps
+🎨 UI/UX: Interfaces para dispositivos
+🛠️ Ferramentas: Plataformas móveis
+```
+
+### 🌐 **Dev. Software Web I**
+```
+🌍 Web Prático: Desenvolvimento Full Stack
+🎨 Frontend: Interfaces responsivas
+⚙️ Backend: Integração e APIs
+```
+
+</td>
+<td width="50%">
+
+### 💾 **Programação com Banco de Dados**
+```
+🗃️ PL/SQL: Procedimentos e funções
+📊 Scripts: Automação e triggers
+🔍 Otimização: Performance de queries
+```
+
+### ✅ **Qualidade de Software**
+```
+🧪 Testes: Verificação e validação
+📏 Métricas: Padrões de qualidade
+📋 Processos: Garantia e melhoria
+```
+
+### 📡 **Redes de Computadores**
+```
+🔗 Conectividade: Protocolos e camadas
+🌐 Internet: Arquitetura TCP/IP
+🔒 Segurança: Infraestrutura de redes
+```
+
+</td>
+</tr>
+</table>
+
+<br>
+
 ## 🛠️ Stack Tecnológica
 
 <div align="center">
@@ -180,13 +239,37 @@ cd "UCE - Paradigmas da Programação II/Exercicios/Props e Hooks"
 │   ├── 📈 Anotações/          # SWOT, 5W2H, 5S, PDCA
 │   ├── 💻 Exercicios/         # Práticas de gestão
 │   └── 📊 Slides/             # Material das aulas
-└── 🔧 UCE - Paradigmas da Programação II/
-    ├── 📝 Anotações/          # React, Hooks, Props, Prisma
-    ├── 🌐 Exercicios/         # Projetos práticos
-    │   ├── App test/          # Testes de aplicação
-    │   ├── PCDentro - Projeto/ # Sistema principal
-    │   └── Props e Hooks/     # Estudos React
-    └── 📊 Slides/             # Guias e apresentações
+├── 🔧 UCE - Paradigmas da Programação II/
+│   ├── 📝 Anotações/          # React, Hooks, Props, Prisma
+│   ├── 🌐 Exercicios/         # Projetos práticos
+│   │   ├── App test/          # Testes de aplicação
+│   │   ├── PCDentro - Projeto/ # Sistema principal
+│   │   └── Props e Hooks/     # Estudos React
+│   └── 📊 Slides/             # Guias e apresentações
+├── 🖥️ Arquitetura e Org. de Computadores/
+│   ├── 📝 Anotações/
+│   ├── 💻 Exercicios/
+│   └── 📊 Slides/
+├── 📱 Dev. Software Dispositivos Móveis I/
+│   ├── 📝 Anotações/
+│   ├── 💻 Exercicios/
+│   └── 📊 Slides/
+├── 🌐 Dev. Software para Web I/
+│   ├── 📝 Anotações/
+│   ├── 💻 Exercicios/
+│   └── 📊 Slides/
+├── 💾 Programação com Banco de Dados/
+│   ├── 📝 Anotações/          # PL/SQL
+│   ├── 💻 Exercicios/
+│   └── 📊 Slides/
+├── ✅ Qualidade de Software/
+│   ├── 📝 Anotações/
+│   ├── 💻 Exercicios/
+│   └── 📊 Slides/
+└── 📡 Redes de Computadores/
+    ├── 📝 Anotações/
+    ├── 💻 Exercicios/
+    └── 📊 Slides/
 ```
 
 <br>
@@ -203,6 +286,12 @@ cd "UCE - Paradigmas da Programação II/Exercicios/Props e Hooks"
 | 💻 **IHC** | UX/UI Design | Usabilidade, Navegação |
 | 📊 **Gestão de Projetos** | Metodologias de gestão | SWOT, PDCA, 5W2H |
 | 🔧 **Paradigmas** | Full-Stack Development | React, Node.js, TypeScript |
+| 🖥️ **Arquitetura** | Hardware e funcionamento | Organização, Circuitos |
+| 📱 **Dev. Mobile** | Aplicações Móveis | Interfaces, Apps |
+| 🌐 **Dev. Web** | Desenvolvimento Web | Frontend, Backend |
+| 💾 **Prog. Banco de Dados** | Automação e Regras | PL/SQL, Triggers |
+| ✅ **Qualidade** | Garantia de Software | Testes, Métricas |
+| 📡 **Redes** | Infraestrutura e Protocolos | TCP/IP, Camadas |
 
 </div>
 
