@@ -18,11 +18,22 @@
 
 <br>
 
+<div align="center">
+  <h2>🎓 2º Ano</h2>
+</div>
+
 ## 🎯 Disciplinas
 
 <table>
 <tr>
 <td width="50%">
+
+### 🗃️ **Banco de Dados I**
+```
+📝 Exercícios: Consultas e modelagem básica
+🗄️ SQL: Fundamentos e DML
+📊 BD I - Exercício 03
+```
 
 ### 🗄️ **Banco de Dados II**
 ```
@@ -93,22 +104,22 @@
 ### 🖥️ **Arquitetura e Org. Computadores**
 ```
 ⚙️ Hardware: Organização e funcionamento
-🔢 Lógica: Circuitos e processamento
-💾 Memória: Hierarquia e armazenamento
+🔢 Memória: Hierarquia e otimização de acesso
+💡 Exercícios: AOR - Questões e estudos de caso
 ```
 
 ### 📱 **Dev. Dispositivos Móveis I**
 ```
-📲 Mobile: Desenvolvimento de apps
-🎨 UI/UX: Interfaces para dispositivos
-🛠️ Ferramentas: Plataformas móveis
+📲 Flutter: JokenPo, Pokedex e apps práticos
+🔥 Firebase: Auth e integração com APIs
+🎮 Projetos: marciomobile, trabalho_marcio_mobile
 ```
 
 ### 🌐 **Dev. Software Web I**
 ```
-🌍 Web Prático: Desenvolvimento Full Stack
-🎨 Frontend: Interfaces responsivas
-⚙️ Backend: Integração e APIs
+🎮 Valorant: Sistema MMR completo
+🌍 Projetos: marcioweb, trabalho-marcio-web, pokeapi
+📊 Slides: Material atualizado das aulas
 ```
 
 </td>
@@ -117,15 +128,15 @@
 ### 💾 **Programação com Banco de Dados**
 ```
 🗃️ PL/SQL: Procedimentos e funções
-📊 Scripts: Automação e triggers
-🔍 Otimização: Performance de queries
+📊 Scripts: Exercícios 01-05 implementados
+🔍 Slides: Aulas 01-03
 ```
 
 ### ✅ **Qualidade de Software**
 ```
 🧪 Testes: Verificação e validação
-📏 Métricas: Padrões de qualidade
-📋 Processos: Garantia e melhoria
+📏 Qualidade de Produto: Métricas e padrões
+🎯 Heurísticas de Nielsen: Usabilidade e UX
 ```
 
 ### 📡 **Redes de Computadores**
@@ -150,6 +161,11 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+### Mobile
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 ### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -202,74 +218,121 @@ cd "UCE - Paradigmas da Programação II/Exercicios/Props e Hooks"
 
 </details>
 
+<details>
+<summary><b>🎮 Valorant MMR System (Dev. Web I)</b></summary>
+
+```bash
+# Navegue até o diretório
+cd "3º ano/Desenvolvimento de Software para Web I/Exercicios/valorant-mmr-system"
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+```
+
+</details>
+
+<details>
+<summary><b>📱 Projetos Mobile (Dev. Dispositivos Móveis I)</b></summary>
+
+```bash
+# Projeto JokenPo
+cd "3º ano/Desenvolvimento de Software para Dispositivos Móveis I/Exercicios/jokenpo"
+
+# Projeto marciomobile
+cd "3º ano/Desenvolvimento de Software para Dispositivos Móveis I/Exercicios/marciomobile"
+
+# Execute com Flutter
+flutter pub get
+flutter run
+```
+
+</details>
+
 <br>
 
 ## 📂 Estrutura do Repositório
 
 ```
 📁 FACULDADE/
-├── 🗄️ Banco de Dados II/
-│   ├── 📝 Anotações/          # SQL, PL/SQL, UPDATE, DELETE
-│   ├── 💻 Exercicios/         # Práticas SQL (.sql)
-│   └── 📊 Slides/             # Material das aulas
-├── 🚀 Empreendedorismo II/
-│   ├── 📝 Anotações/          # Técnicas empreendedoras
-│   ├── 🎨 Exercicios/Postly/  # Projeto React completo
-│   │   └── Personas.docx      # Análise de personas
-│   └── 📈 Slides/             # Canvas, metodologias
-├── 🔗 Estrutura de Dados I/
-│   ├── 📝 Anotações/          # Conceitos fundamentais
-│   ├── 💻 Exercicios/         # Implementações práticas
-│   └── 📚 Slides/             # Pilhas, filas, listas, complexidade
-├── ⚡ Estrutura de Dados II/
-│   ├── 📝 Anotações/          # Bubble Sort, Busca Binária
-│   ├── 🔍 Exercicios/         # Algoritmos implementados
-│   │   ├── bubbleSort/        # Ordenação por bolha
-│   │   ├── buscaBinaria/      # Busca binária
-│   │   ├── buscaSequencial/   # Busca sequencial
-│   │   ├── mergeSort/         # Ordenação por intercalação
-│   │   ├── selectionSort/     # Ordenação por seleção
-│   │   └── fatorialRecursividade/ # Recursividade
-│   └── 📊 Slides/             # Busca e ordenação
-├── 💻 Interação Humano Computador II/
-│   ├── 📝 Anotações/          # Modos de uso e navegação
-│   ├── 📋 Exercicios/         # 8 regras de Ben Shneiderman
-│   └── 📊 Slides/             # Material de apoio
-├── 📊 UCE - Gestão de Projetos/
-│   ├── 📈 Anotações/          # SWOT, 5W2H, 5S, PDCA
-│   ├── 💻 Exercicios/         # Práticas de gestão
-│   └── 📊 Slides/             # Material das aulas
-├── 🔧 UCE - Paradigmas da Programação II/
-│   ├── 📝 Anotações/          # React, Hooks, Props, Prisma
-│   ├── 🌐 Exercicios/         # Projetos práticos
-│   │   ├── App test/          # Testes de aplicação
-│   │   ├── PCDentro - Projeto/ # Sistema principal
-│   │   └── Props e Hooks/     # Estudos React
-│   └── 📊 Slides/             # Guias e apresentações
-├── 🖥️ Arquitetura e Org. de Computadores/
-│   ├── 📝 Anotações/
-│   ├── 💻 Exercicios/
-│   └── 📊 Slides/
-├── 📱 Dev. Software Dispositivos Móveis I/
-│   ├── 📝 Anotações/
-│   ├── 💻 Exercicios/
-│   └── 📊 Slides/
-├── 🌐 Dev. Software para Web I/
-│   ├── 📝 Anotações/
-│   ├── 💻 Exercicios/
-│   └── 📊 Slides/
-├── 💾 Programação com Banco de Dados/
-│   ├── 📝 Anotações/          # PL/SQL
-│   ├── 💻 Exercicios/
-│   └── 📊 Slides/
-├── ✅ Qualidade de Software/
-│   ├── 📝 Anotações/
-│   ├── 💻 Exercicios/
-│   └── 📊 Slides/
-└── 📡 Redes de Computadores/
-    ├── 📝 Anotações/
-    ├── 💻 Exercicios/
-    └── 📊 Slides/
+├── 📁 2º ano/
+│   ├── 🗃️ Banco de Dados I/
+│   │   └── 💻 Exercicio/          # BD I - Exercício 03
+│   ├── 🗄️ Banco de Dados II/
+│   │   ├── 📝 Anotações/          # SQL, PL/SQL, UPDATE, DELETE
+│   │   ├── 💻 Exercicios/         # Práticas SQL (.sql)
+│   │   └── 📊 Slides/             # Material das aulas
+│   ├── 🚀 Empreendedorismo II/
+│   │   ├── 📝 Anotações/          # Técnicas empreendedoras
+│   │   ├── 🎨 Exercicios/Postly/  # Projeto React completo
+│   │   │   └── Personas.docx      # Análise de personas
+│   │   └── 📈 Slides/             # Canvas, metodologias
+│   ├── 🔗 Estrutura de Dados I/
+│   │   ├── 📝 Anotações/          # Conceitos fundamentais
+│   │   ├── 💻 Exercicios/         # Implementações práticas
+│   │   └── 📚 Slides/             # Pilhas, filas, listas, complexidade
+│   ├── ⚡ Estrutura de Dados II/
+│   │   ├── 📝 Anotações/          # Bubble Sort, Busca Binária
+│   │   ├── 🔍 Exercicios/         # Algoritmos implementados
+│   │   │   ├── bubbleSort/
+│   │   │   ├── buscaBinaria/
+│   │   │   ├── buscaSequencial/
+│   │   │   ├── mergeSort/
+│   │   │   ├── selectionSort/
+│   │   │   └── fatorialRecursividade/
+│   │   └── 📊 Slides/
+│   ├── 💻 Interação Humano Computador II/
+│   │   ├── 📝 Anotações/          # Modos de uso e navegação
+│   │   ├── 📋 Exercicios/         # 8 regras de Ben Shneiderman
+│   │   └── 📊 Slides/
+│   ├── 📊 UCE - Gestão de Projetos/
+│   │   ├── 📈 Anotações/          # SWOT, 5W2H, 5S, PDCA
+│   │   ├── 💻 Exercicios/
+│   │   └── 📊 Slides/
+│   └── 🔧 UCE - Paradigmas da Programação II/
+│       ├── 📝 Anotações/          # React, Hooks, Props, Prisma
+│       ├── 🌐 Exercicios/
+│       │   ├── App test/
+│       │   ├── PCDentro - Projeto/ # Sistema principal
+│       │   └── Props e Hooks/
+│       └── 📊 Slides/
+└── 📁 3º ano/
+    ├── 🖥️ Arquitetura e Org. de Computadores/
+    │   ├── 📝 Anotações/
+    │   ├── 💻 Exercicios/         # Hierarquia de Memória, Questões
+    │   └── 📊 Slides/
+    ├── 📱 Desenvolvimento de Software para Dispositivos Móveis I/
+    │   ├── 📝 Anotações/
+    │   ├── 💻 Exercicios/
+    │   │   ├── jokenpo/           # App JokenPo em Flutter
+    │   │   ├── marciomobile/
+    │   │   ├── primeiro_app/
+    │   │   └── trabalho_marcio_mobile/
+    │   └── 📊 Slides/             # Flutter, Firebase, Pokedex
+    ├── 🌐 Desenvolvimento de Software para Web I/
+    │   ├── 📝 Anotações/
+    │   ├── 💻 Exercicios/
+    │   │   ├── aula4-rotas/
+    │   │   ├── marcioweb/
+    │   │   ├── pokeapi/
+    │   │   ├── primeiro-site/
+    │   │   ├── trabalho-marcio-web/
+    │   │   └── valorant-mmr-system/ # Sistema MMR completo
+    │   └── 📊 Slides/
+    ├── 💾 Programação com Banco de Dados/
+    │   ├── 📝 Anotações/          # PL/SQL
+    │   ├── 💻 Exercicios/         # Exercícios 01-05
+    │   └── 📊 Slides/             # Aulas 01-03
+    ├── ✅ Qualidade de Software/
+    │   ├── 📝 Anotações/
+    │   ├── 💻 Exercicios/
+    │   └── 📊 Slides/             # Qualidade de Produto, Heurísticas de Nielsen
+    └── 📡 Redes de Computadores/
+        ├── 📝 Anotações/
+        ├── 💻 Exercicios/
+        └── 📊 Slides/
 ```
 
 <br>
@@ -280,17 +343,18 @@ cd "UCE - Paradigmas da Programação II/Exercicios/Props e Hooks"
 
 | Disciplina | Foco Principal | Tecnologias |
 |------------|----------------|-------------|
+| 🗃️ **Banco de Dados I** | SQL Fundamental e Modelagem | PostgreSQL, DML |
 | 🗄️ **Banco de Dados II** | SQL Avançado e PL/SQL | PostgreSQL, UPDATE, DELETE |
 | 🚀 **Empreendedorismo** | Metodologias ágeis | Canvas, Personas |
 | 🔗 **Estrutura de Dados** | Algoritmos fundamentais | JavaScript, Análise |
 | 💻 **IHC** | UX/UI Design | Usabilidade, Navegação |
 | 📊 **Gestão de Projetos** | Metodologias de gestão | SWOT, PDCA, 5W2H |
 | 🔧 **Paradigmas** | Full-Stack Development | React, Node.js, TypeScript |
-| 🖥️ **Arquitetura** | Hardware e funcionamento | Organização, Circuitos |
-| 📱 **Dev. Mobile** | Aplicações Móveis | Interfaces, Apps |
-| 🌐 **Dev. Web** | Desenvolvimento Web | Frontend, Backend |
+| 🖥️ **Arquitetura** | Hardware e Hierarquia de Memória | Organização, Circuitos |
+| 📱 **Dev. Mobile** | Flutter e Firebase | Dart, Firebase Auth, APIs |
+| 🌐 **Dev. Web** | Desenvolvimento Full Stack | Frontend, Backend, Rotas |
 | 💾 **Prog. Banco de Dados** | Automação e Regras | PL/SQL, Triggers |
-| ✅ **Qualidade** | Garantia de Software | Testes, Métricas |
+| ✅ **Qualidade** | Heurísticas e Métricas | Testes, Nielsen, Produto |
 | 📡 **Redes** | Infraestrutura e Protocolos | TCP/IP, Camadas |
 
 </div>
